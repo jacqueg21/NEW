@@ -13,7 +13,7 @@ function LED1_Off(){
 	//alert("led off");
 	console.log("led off");
 	message = new Paho.MQTT.Message("OFF");
-    	message.destinationName = "jcguailla.fie@unach.edu.ec";
+    	message.destinationName = "jcguailla.fie@unach.edu.ec/temanew";
     	client.send(message);
 	//document.getElementById("sensor").innerHTML="led off";
 }
